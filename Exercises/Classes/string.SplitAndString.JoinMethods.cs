@@ -1,6 +1,6 @@
 namespace Exercises.Classes;
 
-public class string_SplitAndString_JoinMethods
+public class StringSplitAndStringJoinMethods
 {
     public static class StringsTransformator
     {

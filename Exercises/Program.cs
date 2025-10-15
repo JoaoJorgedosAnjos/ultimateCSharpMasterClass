@@ -1,6 +1,6 @@
 ﻿using Exercises.Classes;
 
-string resultado = string_SplitAndString_JoinMethods.StringsTransformator.TransformSeparators(
+string resultado = StringSplitAndStringJoinMethods.StringsTransformator.TransformSeparators(
     "maçã,banana,laranja",
     ",",
     " | "
