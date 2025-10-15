@@ -1,6 +1,10 @@
 ﻿using OurFirstClass.Classes;
 
 var rectangle = new Rectangle(4, 8);
+var rectangle1 = new Rectangle(4, 8);
+
+Console.WriteLine(Rectangle.CountOfInstances);
+
 var calculator = new ShapesMeasurementsCalculator();
 Console.WriteLine("Width is " + rectangle.Width);
 Console.WriteLine("Height is " + rectangle.GetHeight);

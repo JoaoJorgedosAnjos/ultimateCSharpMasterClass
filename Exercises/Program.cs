@@ -1,3 +1,8 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿using Exercises.Classes;
 
-Console.WriteLine("Hello, World!");
+string resultado = string_SplitAndString_JoinMethods.StringsTransformator.TransformSeparators(
+    "maçã,banana,laranja",
+    ",",
+    " | "
+);
+Console.WriteLine(resultado);

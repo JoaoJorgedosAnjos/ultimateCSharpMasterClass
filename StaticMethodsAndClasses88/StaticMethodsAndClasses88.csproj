@@ -8,8 +8,4 @@
         <RootNamespace>StaticMethodsAndClasses</RootNamespace>
     </PropertyGroup>
 
-    <ItemGroup>
-      <Folder Include="Models\" />
-    </ItemGroup>
-
 </Project>

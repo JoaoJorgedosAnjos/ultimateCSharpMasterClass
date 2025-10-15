@@ -4,6 +4,7 @@ namespace OurFirstClass.Classes;
 
 public class Rectangle
 {
+    public static int CountOfInstances { get; private set; }
     private const int NumberOfSides = 4;
     public int Width;
     private int _height;
@@ -12,6 +13,7 @@ public class Rectangle
     {
         Width = GetLenghtOrDefault(width, nameof(Width));
         _height = GetLenghtOrDefault(height, nameof(_height));
+        ++CountOfInstances;
     }
 
     public int GetHeight => _height;
